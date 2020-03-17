@@ -1,0 +1,19 @@
+@media(max-width:1000px) {
+  .menu {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+
+@media(max-width:670px) {
+  .concept {
+    height: 470px;
+  }
+  .text {
+    font-size: 20px;
+  }
+  .menu {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
