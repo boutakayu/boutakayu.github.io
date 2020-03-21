@@ -42,20 +42,27 @@ header {
 .tab {
   float: right;
   font-size: 50px;
-  color: grey;
+  color:white;
+  background-color: gray;
+  padding: 0 10px;
+  opacity: 0.7;
+}
+
+.tab:hover {
+  opacity: 0.4;
 }
 
 .concept {
   height: 600px;
-  background-image: url(sea.JPG);
+  background-image: url(images/sea.JPG);
   opacity: 0.7;
   background-size: cover;
   text-align: center;
 }
 
 .text {
-  padding-top: 150px;
-  font-size: 24px;
+  padding-top: 140px;
+  font-size: 20px;
   color: white;
   font-weight: bold;
   line-height: 1.8;
@@ -67,6 +74,7 @@ header {
   width: auto;
   text-align: center;
   padding-top: 30px;
+  margin-top: 30px;
 }
 
 .menu {
@@ -79,9 +87,13 @@ header {
   opacity: 0.8;
 }
 
-.menu img {
+.menu-icon:hover {
+  opacity: 0.5;
+}
+
+.menus img {
   border-radius: 50%;
-  height: 300px;
+  height: 350px;
   
 }
 
@@ -100,6 +112,34 @@ header {
   margin-top: 15px;
   font-size: 18px;
 }
+
+.menu-inst {
+  /* align-items: left; */
+  text-align: left;
+  padding-bottom: 60px;
+}
+
+.menu-inst img {
+  float: left;
+  margin-right: 30px;
+  width:360px;
+}
+.menu-inst p {
+  margin: 0;
+}
+
+.menu-inst h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-inst ul {
+  margin: 0;
+  /* display: table-cell;
+  vertical-align: middle;
+  margin-left: 60px; */
+}
+
 
 footer {
   height: 120px;
@@ -123,4 +163,12 @@ margin: 0;
   padding: 0 8px;
   color: rgba(100,30,30);
   /* display: inline-block; */
+}
+
+.mobile {
+  display: none;
+}
+
+.outlink:hover {
+  opacity: 0.5;
 }
